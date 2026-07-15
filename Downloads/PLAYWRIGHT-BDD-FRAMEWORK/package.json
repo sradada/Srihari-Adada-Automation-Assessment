@@ -1,0 +1,22 @@
+{
+  "name": "playwright-bdd-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test1",
+    "test1": "npm run bddgen && npm run playwright-test",
+    "bddgen": "npx bddgen",
+    "playwright-test": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "dotenv": "^17.4.2",
+    "playwright-bdd": "^9.2.0"
+  }
+}
